@@ -146,7 +146,7 @@ export const CheckoutForm = ({
   ContentModal.push(
     <div className="flex justify-center items-center flex-col gap-5">
       <img
-        src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.15752-9/387501465_292635606913054_8475621202625410822_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHOvE01ammBLQGzDS_UCCbgp4CBBFJ0qdCngIEEUnSp0Et3yrHnwIkeNZsVtGO82YzRXkxYpsy3at945Y4-LORO&_nc_ohc=h8llqUgJ6QUAX-sw9g2&_nc_ht=scontent.fhph1-2.fna&oh=03_AdSYd-JZxu52AgOTztwFX_JshT8wM0E7NL2zugYkJXQVMQ&oe=65F10A31"
+        src="https://scontent.fhan14-5.fna.fbcdn.net/v/t1.15752-9/423735693_1919090955176247_10833119205927969_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEioN-qdR-KQK3diiTjEqXklcRM7OFA9D6VxEzs4UD0Pthlw3I1jcevM_A5zIFSLVzOSSycsqaP9JyL0bqCle4i&_nc_ohc=yHCzCPKh_jAAX_2lbFD&_nc_ht=scontent.fhan14-5.fna&oh=03_AdQbNLnCAxqw-UtxagVc_TKLpscaQyQufnJ8OawzoukUCw&oe=6611F043"
         className="max-w-[200px]"
       />
       <p>Thông tin chuyển khoản ngân hàng</p>
@@ -174,10 +174,10 @@ export const CheckoutForm = ({
         <tbody>
           <tr>
             <td className="p-3 border border-gray-300 border-solid">
-              NGUYEN BA TUAN
+              NGUYEN THI PHUONG
             </td>
             <td className="p-3 border border-gray-300 border-solid">
-              9704 2292 7003 3546
+              1234 4567 7890
             </td>
             <td className="p-3 border border-gray-300 border-solid">MB</td>
             <td className="p-3 border border-gray-300 border-solid">
@@ -267,7 +267,9 @@ export const CheckoutForm = ({
                     placeholder={"Name"}
                   />
                   {errors.name && (
-                    <p className="text-[#FF6868] italic">{errors.name.message}</p>
+                    <p className="text-[#FF6868] italic">
+                      {errors.name.message}
+                    </p>
                   )}
                 </div>
                 <div className="w-full">
@@ -551,5 +553,5 @@ function CheckIcon(props) {
 }
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
