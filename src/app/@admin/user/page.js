@@ -1,4 +1,10 @@
+import { UserForm } from "../components/component/organisms/UserForm";
+
 const UserPage = () => {
-  return <>sdfsd</>;
+  return (
+    <>
+      <UserForm />
+    </>
+  );
 };
 export default UserPage;

@@ -1,4 +1,10 @@
+import { NewsForm } from "../components/component/organisms/NewsForm";
+
 const NewsPage = () => {
-  return <></>;
+  return (
+    <>
+      <NewsForm />
+    </>
+  );
 };
 export default NewsPage;

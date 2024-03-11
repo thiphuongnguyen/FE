@@ -1,4 +1,4 @@
-import { ProductForm } from "../config/components/organisms/ProductForm";
+import { ProductForm } from "../components/component/organisms/ProductForm";
 
 const ProductPage = () => {
   return (

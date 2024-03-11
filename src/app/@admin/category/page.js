@@ -1,4 +1,4 @@
-import { CategoryForm } from "../config/components/organisms/CategoryForm";
+import { CategoryForm } from "../components/component/organisms/CategoryForm";
 
 const CategoryPage = () => {
   return (

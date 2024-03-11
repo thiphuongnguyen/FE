@@ -1,4 +1,4 @@
-import { SigninForm } from "../config/components/organisms/SigninForm";
+import { SigninForm } from "../components/component/organisms/SigninForm";
 
 const SigninPage = () => {
   return (

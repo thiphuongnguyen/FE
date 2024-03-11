@@ -1,4 +1,4 @@
-import { Cart } from "../config/components/organisms/Cart";
+import { Cart } from "../components/component/organisms/Cart";
 
 export const metadata = {
   title: "Technology",

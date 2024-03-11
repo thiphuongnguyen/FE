@@ -1,4 +1,4 @@
-import { AllSearchProducts } from "../config/components/organisms/ListProduct";
+import { AllSearchProducts } from "../components/component/organisms/ListProduct";
 
 export const metadata = {
   title: "Technology",

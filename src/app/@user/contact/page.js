@@ -1,4 +1,4 @@
-import { ContactForm } from "../config/components/organisms/ContactForm";
+import { ContactForm } from "../components/component/organisms/ContactForm";
 
 export const metadata = {
   title: "Technology",

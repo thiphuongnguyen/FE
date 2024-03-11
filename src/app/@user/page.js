@@ -1,7 +1,7 @@
-import { ListCategoryBottom } from "./config/components/molecules/ListCategoryBottom";
-import { HaderSection } from "./config/components/organisms/HaderSection";
-import { ListProductHome } from "./config/components/organisms/ListProduct";
-import { ListProductTop } from "./config/components/organisms/ProductTop";
+import { ListCategoryBottom } from "./components/component/molecules/ListCategoryBottom";
+import { HaderSection } from "./components/component/organisms/HaderSection";
+import { ListProductHome } from "./components/component/organisms/ListProduct";
+import { ListProductTop } from "./components/component/organisms/ProductTop";
 
 
 export const metadata = {

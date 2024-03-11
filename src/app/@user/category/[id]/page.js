@@ -1,4 +1,4 @@
-import { AllProducts } from "../../config/components/organisms/ListProduct";
+import { AllProducts } from "../../components/component/organisms/ListProduct";
 
 const Categories = () => {
   return (

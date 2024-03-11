@@ -12,7 +12,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className="bg-white w-16 h-16"></div>
+      <div className=""></div>
     </>
   );
 };

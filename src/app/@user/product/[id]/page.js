@@ -1,4 +1,4 @@
-import { ProductDetail } from "../../config/components/organisms/ProductDetail";
+import { ProductDetail } from "../../components/component/organisms/ProductDetail";
 
 export const metadata = {
   title: "Technology",

@@ -1,14 +1,18 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 import { Inter } from "next/font/google";
-import { Layout } from "./@user/config/components/templates/Layout";
-import { LayoutAdmin } from "./@admin/config/components/templates/Layout";
+import { Layout } from "./@user/components/component/templates/Layout";
+import { LayoutAdmin } from "./@admin/components/component/templates/Layout";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ user, admin }) {
   const searchParams = useSearchParams();
   const role = localStorage.getItem("role");
+  if(!role){
+    localStorage.setItem("role", "user");
+  }
 
   return (
     <html lang="en">
@@ -21,12 +25,12 @@ export default function RootLayout({ user, admin }) {
       <body
         className={inter.className}
         suppressHydrationWarning={true}
-        // style={{
-        //   backgroundImage:
-        //     role === "admin"
-        //       ? "linear-gradient(to bottom right, rgba(0, 47, 75, 0.5), rgba(220, 67, 37, 0.3))"
-        //       : null,
-        // }}
+        style={{
+          backgroundImage:
+            role === "admin"
+              ? "linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6))"
+              : null,
+        }}
       >
         {role === "admin" ? (
           <LayoutAdmin>{admin}</LayoutAdmin>
